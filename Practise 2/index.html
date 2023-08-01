@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" >
+
+  <body>
+    <div class="dark-background center-text">
+      <div>
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png"
+          class="bulb-image"
+          id="bulbImage"
+        />
+      </div>
+      <div>
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png"
+          class="cat-image"
+          id="catImage"
+        />
+      </div>
+      <div class="img-container">
+        <div class="switch-board">
+          <h1 class="switch-status" id="switchStatus">Switched On</h1>
+          <button class="off-switch" id="offSwitch" onclick="switchOff()">
+            OFF
+          </button>
+          <button class="on-switch" id="onSwitch" onclick="switchOn()">
+            ON
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
